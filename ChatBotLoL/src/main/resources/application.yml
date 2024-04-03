@@ -1,0 +1,16 @@
+spring: 
+   application:
+      name: ChatBot-JAVA
+   datasource:
+      url: jdbc:h2:mem:CBJ
+      driver-class-name: org.h2.Driver
+      username: root
+      password: 111
+   h2:
+      console:
+         enabled: true
+
+openai:
+   base-url: https://api.openai.com
+   api-key: ${OPENAI_API_KEY}
+   
